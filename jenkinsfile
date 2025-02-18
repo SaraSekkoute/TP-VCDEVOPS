@@ -11,6 +11,11 @@ pipeline {
         git 'https://github.com/SaraSekkoute/TP-VCDEVOPS'
       }
     }
+     stage('Docker Login') {
+      steps{
+        sh 'docker login -u ${DOCKER_USERNAME} -P ${DOCKER_PW}'
+      }
+    }
     stage('Building image') {
       steps{
         script {
