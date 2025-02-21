@@ -1,7 +1,7 @@
 // pipeline {
 //     environment {
 //         registry = "ssarask/tp1"
-//         registryCredential = '7a22c70f-dd06-42b7-bfac-a122e274bb6d'
+//         registryCredential = ''
 //         dockerImage = ''
 //     }
 //     agent any
@@ -9,7 +9,7 @@
 //         stage('Cloning Git') {
 //             steps {
 //                 git branch: 'main', 
-//                     credentialsId: '5cdda9c8-f00c-43ad-9611-e7f9dc96cb9a', 
+//                     credentialsId: '', 
 //                     url: 'https://github.com/SaraSekkoute/TP-VCDEVOPS'
 //             }
 //         }
@@ -73,7 +73,7 @@
 pipeline {
     environment {
         registry = "ssarask/tp1"
-        registryCredential = '7a22c70f-dd06-42b7-bfac-a122e274bb6d'
+        registryCredential = ''
         dockerImage = ''
     }
     agent any
@@ -81,7 +81,7 @@ pipeline {
         stage('Cloning Git') {
             steps {
                 git branch: 'main', 
-                    credentialsId: '5cdda9c8-f00c-43ad-9611-e7f9dc96cb9a', 
+                    credentialsId: '', 
                     url: 'https://github.com/SaraSekkoute/TP-VCDEVOPS'
             }
         }
