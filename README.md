@@ -20,6 +20,9 @@
 <p>pour supprimer Job</p>
 <img src="captures/img_11.png">
 <h1>Partie 2: CI/CD (continuous integration/continuous deployment)</h1>
+Créer un autre job freestyle job2tp4 contenant les mêmes instructions du
+job1tp4 de la première partie tout en ajoutant un script Shell qui déploie l’image
+sous un nouveau conteneur sur docker engine
 <p>Avant</p>
 <img src="captures/img_12.png">
 
@@ -27,6 +30,13 @@
 
 <p>Apres</p>
 <img src="captures/img_14.png">
+Faire un changement dans index.html, découvrir les changements sur le job2tp4
+et sur l’image déployé
+<img src="captures/img_17.png">
+<img src="captures/img_16.png">
+<img src="captures/img_15.png">
+
+
 
 
 
