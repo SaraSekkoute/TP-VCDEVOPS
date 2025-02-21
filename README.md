@@ -1,7 +1,5 @@
 <h2>Vérifier si Docker est installé sur la VM</h2>
 <img src="captures/img_1.png">
-<h2>Ajouter une variable d'environnement sur la machine hôte qui contient l'adresse IP de cette VM</h2>
-<img src="captures/img_2.png">
 <h2>Après la création du projet, on va le pousser sur GitHub </h2>
 <img src="captures/img_3.png">
 <h1>Partie 1 : CI</h1>
