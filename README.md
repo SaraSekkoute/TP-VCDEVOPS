@@ -41,12 +41,18 @@ paramètres du job, un script dans la partie script du pipeline assurant les tro
 stages (Cloning Git, Building image, Publish Image)
 <img src="captures/img_19.png">
 <img src="captures/img_18.png">
-Créer un job du type pipeline (job3tp4). Ce dernier contiendra quatre Stages
-(Cloning Git, Building image, Test image, Publish Image). Sur le même projet
-TP4, créer un fichier ‘jenkinsfile’ qui définit le script assurant les quatre stages,
+Créer un job du type pipeline (job3tp4). Ce dernier cinq Stages (Cloning Git, Building
+image, Test image, Publish Image, deploy image).. Sur le même projet
+TP4, créer un fichier ‘jenkinsfile’ qui définit le script assurant les cinq stages,
 par la suite spécifier sur le job le chemin du fichier ‘jenkinsfile’.
 Créer le Jenkins file sur le dépôt local et faire le push de ce dernier sur le dépôt
 distant
+<img src="captures/img_20.png">
+<img src="captures/img_21.png">
+<img src="captures/img_22.png">
+
+
+
 
 
 
