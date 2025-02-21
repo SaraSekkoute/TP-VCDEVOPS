@@ -35,6 +35,20 @@ et sur l’image déployé
 <img src="captures/img_17.png">
 <img src="captures/img_16.png">
 <img src="captures/img_15.png">
+Créer un job du type pipeline job2tp4v2 (qui reprend les mêmes tâches du job
+freestyle job2tp4 mais d’une autre manière), ajouter sans rien changer dans les
+paramètres du job, un script dans la partie script du pipeline assurant les trois
+stages (Cloning Git, Building image, Publish Image)
+<img src="captures/img_19.png">
+<img src="captures/img_18.png">
+Créer un job du type pipeline (job3tp4). Ce dernier contiendra quatre Stages
+(Cloning Git, Building image, Test image, Publish Image). Sur le même projet
+TP4, créer un fichier ‘jenkinsfile’ qui définit le script assurant les quatre stages,
+par la suite spécifier sur le job le chemin du fichier ‘jenkinsfile’.
+Créer le Jenkins file sur le dépôt local et faire le push de ce dernier sur le dépôt
+distant
+
+
 
 
 
