@@ -9,7 +9,6 @@
 <img src="captures/img_4.png">
 <img src="captures/img_5.png">
 <img src="captures/img_6.png">
-<img src="captures/img_7.png">
 <img src="captures/img_8.png">
 <p>l'image a été construite avec succès</p>
 <img src="captures/img_10.png">
@@ -33,6 +32,8 @@ et sur l’image déployé
 <img src="captures/img_17.png">
 <img src="captures/img_16.png">
 <img src="captures/img_15.png">
+<img src="captures/img_23.png">
+<img src="captures/img_24.png">
 Créer un job du type pipeline job2tp4v2 (qui reprend les mêmes tâches du job
 freestyle job2tp4 mais d’une autre manière), ajouter sans rien changer dans les
 paramètres du job, un script dans la partie script du pipeline assurant les trois
